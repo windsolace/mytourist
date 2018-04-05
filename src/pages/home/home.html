@@ -1,0 +1,27 @@
+<ion-content padding>
+    <ion-item no-lines text-center>
+        <img src="assets/imgs/youby_logo.png"/>
+    </ion-item>
+    <ion-searchbar autocomplete placeholder="Next Holiday Destination" [(ngModel)]="location"></ion-searchbar>
+    <ion-card>
+        <ion-row>
+            <ion-col padding text-center (click)="launchFrom()">
+                <h2>Check-in</h2>
+                <ion-datetime displayFormat="DDD DD MMM" pickerFormat="DD MMM YYYY" min="2018" max="2019" placeholder="{{currentDate}}" class="input-date" [(ngModel)]="checkinDate"></ion-datetime>
+            </ion-col>
+            <ion-col padding text-center (click)="launchTo()">
+                <h2>Check-out</h2>
+                <ion-datetime displayFormat="DDD DD MMM" pickerFormat="DD MMM YYYY" min="2018" max="2019" placeholder="{{currentDate}}" class="input-date" [(ngModel)]="checkoutDate"></ion-datetime>
+            </ion-col>
+        </ion-row>
+    </ion-card>
+    <ion-card padding>
+        <ion-item>
+            <ion-label color="primary" fixed>Travellers</ion-label>
+            <ion-input text-end type="number" placeholder="{{travellers}}" [(ngModel)]="travellers"></ion-input>
+        </ion-item>
+    </ion-card>
+    <button ion-button block (click)="doSearch()">Search</button>
+
+    
+</ion-content>

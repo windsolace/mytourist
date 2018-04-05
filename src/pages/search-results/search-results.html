@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Search Results
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        {{data.location}}
+    </ion-item>
+    <ion-item>
+        {{data.checkin}}
+    </ion-item>
+    <ion-item>
+        {{data.checkout}}
+    </ion-item>
+    <ion-item>
+        {{data.travellers}}
+    </ion-item>
+    
+    <div *ngFor="let profile of guideList">
+        <profile-card [data]="profile" (click)="goToProfile(profile)"></profile-card>
+    </div>
+        
+</ion-content>
