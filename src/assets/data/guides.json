@@ -1,13 +1,16 @@
 [{
 	"name":"Ken Ta Kee",
 	"img":"https://www.stockvault.net/data/2013/09/14/147895/preview16.jpg",
-	"description":"Just a handsome guy who love KFC. Having it for breakfast lunch and dinner. Let me introduce you to Singapore's KFC!"
+	"description":"Just a handsome guy who love KFC. Having it for breakfast lunch and dinner. Let me introduce you to Singapore's KFC!",
+	"rating":3
 },{
 	"name":"Mack Do Nah",
 	"img":"https://www.stockvault.net/data/2013/09/14/147895/preview16.jpg",
-	"description":"2 juicy patty topped with a bun of sesame and kiapped with mayo. That's my favourite. What's yours?"
+	"description":"2 juicy patty topped with a bun of sesame and kiapped with mayo. That's my favourite. What's yours?",
+	"rating":2
 }, {
 	"name":"Bo Lui Jiak",
 	"img":"https://www.stockvault.net/data/2013/09/14/147895/preview16.jpg",
-	"description":"I no money, please gimme some money can? I bring you around Singapore best place."
+	"description":"I no money, please gimme some money can? I bring you around Singapore best place.",
+	"rating": 4
 }]

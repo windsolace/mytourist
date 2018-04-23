@@ -7,6 +7,7 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class ProfilePage {
 	profile:any = {};
+	rating:number[]=[];
 
 	constructor(public navCtrl: NavController,
 		public navParams: NavParams) {
@@ -15,6 +16,10 @@ export class ProfilePage {
 
 	ionViewDidEnter(){
 		this.profile = this.navParams.data;
+		for(let i = 0; i < this.profile.rating; i++){
+			this.rating.push(1);
+			if(i > 5) break;
+		}
 	}
 
 }

@@ -10,7 +10,7 @@
 	<ion-avatar item-start>
 		<img src="{{profile.img}}">
 	</ion-avatar>
-	<h2>{{profile.name}}</h2>
+	<h2>{{profile.name}}</h2><div><ion-icon class="rate-star" name="star" *ngFor="let count of rating"></ion-icon></div>
 	<p>{{profile.description}}</p>
 
 
