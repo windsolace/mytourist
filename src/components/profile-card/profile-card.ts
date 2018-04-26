@@ -14,6 +14,5 @@ export class ProfileCard {
 
 	constructor(public navCtrl: NavController) {
 	}
-
 }
  
