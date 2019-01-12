@@ -9,12 +9,12 @@ import { BookingPage } from '../pages/booking/booking';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { ProfilePage } from '../pages/profile/profile';
-import { TourDetailsPage } from '../pages/tour-details/tour-details';
+//import { TourDetailsPage } from '../pages/tour-details/tour-details';
 import { SearchResultsPage } from '../pages/search-results/search-results';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { ProfileCard } from '../components/profile-card/profile-card';
-import { TourCard } from '../components/tour-card/tour-card';
+//import { TourCard } from '../components/tour-card/tour-card';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -28,9 +28,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfileCard,
     ProfilePage,
     SearchResultsPage,
-    TabsPage,
-    TourCard,
-    TourDetailsPage
+    TabsPage
+    //TourCard,
+    //TourDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -45,8 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ProfilePage,
     SearchResultsPage,
-    TabsPage,
-    TourDetailsPage
+    TabsPage
+    //TourDetailsPage
   ],
   providers: [
     StatusBar,

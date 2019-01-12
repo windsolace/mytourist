@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
-import { TourDetailsPage } from '../../pages/tour-details/tour-details';
+//import { TourDetailsPage } from '../../pages/tour-details/tour-details';
 import 'rxjs/add/operator/map';
 
 @Component({
@@ -33,11 +33,11 @@ export class SearchResultsPage {
 			console.error(err);
 		});
 
-		this.getTours().subscribe(response => {
+		/*this.getTours().subscribe(response => {
 			this.tourList = response;
 		}, err=> {
 			console.error(err);
-		});
+		});*/
 		
 	}
 
