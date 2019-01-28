@@ -50,7 +50,7 @@ export class SearchResultsPage {
 	}
 
 	goToProfile(profile){
-		this.navCtrl.push(ProfilePage, profile);
+		//this.navCtrl.push(ProfilePage, profile);
 	}
 
 	goToTour(tour){
