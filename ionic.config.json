@@ -1,7 +1,0 @@
-{
-  "name": "myTourist",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
