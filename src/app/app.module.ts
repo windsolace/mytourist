@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { BookingPage } from '../pages/booking/booking';
+import { LoginPage } from '../pages/login/login';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { ProfilePage } from '../pages/profile/profile';
@@ -25,6 +26,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BookingPage,
     ContactPage,
     HomePage,
+    LoginPage,
     ProfileCard,
     ProfilePage,
     SearchResultsPage,
@@ -43,6 +45,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BookingPage,
     ContactPage,
     HomePage,
+    LoginPage,
     ProfilePage,
     SearchResultsPage,
     TabsPage
