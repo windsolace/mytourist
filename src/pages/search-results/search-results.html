@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Search Results
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-5>
+                <img src="assets/imgs/youby_logo.png"/>
+            </ion-col>
+            <ion-col col-7>
+                <ul>
+                    <li><ion-icon name="compass"></ion-icon> {{data.location}}</li>
+                    <li><ion-icon name="people"></ion-icon> {{data.travellers}}</li>
+                    <li><ion-icon name="calendar"></ion-icon> {{data.checkin}} - {{data.checkout}}</li>
+                </ul>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+    <div *ngFor="let profile of guideList">
+        <profile-card [data]="profile" (click)="goToProfile(profile)"></profile-card>
+    </div>
+
+    <div *ngFor="let tour of tourList">
+        <tour-card [data]="tour" (click)="goToTour(tour)"></tour-card>
+    </div>
+        
+</ion-content>

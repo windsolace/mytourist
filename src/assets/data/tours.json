@@ -1,0 +1,29 @@
+[{
+	"name":"Marina Bay Sands and ArtScience Museum Tour",
+	"img":"http://images.marketing-interactive.com.s3.amazonaws.com/wp-content/uploads/2017/12/Marina-Bay-Sands-700x466.jpg",
+	"pax":2,
+	"price":15,
+	"meet":"Promenade MRT",
+	"type":"private"
+},{
+	"name":"Merlion Park and night walk",
+	"img":"http://travelinsingapore.com/wp-content/uploads/2017/05/merlion-park-and-marina-bay-1200x800.jpg",
+	"pax":5,
+	"price":20,
+	"meet":"Esplanade MRT",
+	"type":"public"
+}, {
+	"name":"Marina Bay Sands and ArtScience Museum Tour",
+	"img":"http://images.marketing-interactive.com.s3.amazonaws.com/wp-content/uploads/2017/12/Marina-Bay-Sands-700x466.jpg",
+	"pax":2,
+	"price":13,
+	"meet":"Promenade MRT",
+	"type":"public"
+}, {
+	"name":"Jubilee Bridge and MBS Night Scenery",
+	"img":"https://www.arup.com/-/media/arup/images/projects/j/jubilee-bridge-singapore/6t6a9521c-arup-012000x1125.jpg?h=1125&la=en&w=2000&hash=010D5D4DEAF7D74BC40E9B56BE26894C3898B8B0",
+	"pax":2,
+	"price":10,
+	"meet":"Promenade MRT",
+	"type":"private"
+}]
