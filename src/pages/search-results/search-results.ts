@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
-//import { TourDetailsPage } from '../../pages/tour-details/tour-details';
+import { TourDetailsPage } from '../../pages/tour-details/tour-details';
+import { ProfilePage } from '../../pages/profile/profile';
 import 'rxjs/add/operator/map';
 
 @Component({
@@ -33,11 +34,11 @@ export class SearchResultsPage {
 			console.error(err);
 		});
 
-		/*this.getTours().subscribe(response => {
+		this.getTours().subscribe(response => {
 			this.tourList = response;
 		}, err=> {
 			console.error(err);
-		});*/
+		});
 		
 	}
 
@@ -50,10 +51,10 @@ export class SearchResultsPage {
 	}
 
 	goToProfile(profile){
-		//this.navCtrl.push(ProfilePage, profile);
+		this.navCtrl.push(ProfilePage, profile);
 	}
 
 	goToTour(tour){
-		//this.navCtrl.push(TourDetailsPage, tour);
+		this.navCtrl.push(TourDetailsPage, tour);
 	}
 }
