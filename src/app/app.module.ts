@@ -5,7 +5,8 @@ import { MyApp } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
-import { BookingPage } from '../pages/booking/booking';
+//import { BookingPage } from '../pages/booking/booking';
+import { TgDashboardPage } from '../pages/tg-dashboard/tg-dashboard';
 import { LoginPage } from '../pages/login/login';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -23,7 +24,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    BookingPage,
+    //BookingPage,
     ContactPage,
     HomePage,
     LoginPage,
@@ -32,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SearchResultsPage,
     TabsPage,
     TourCard,
-    TourDetailsPage
+    TourDetailsPage,
+    TgDashboardPage
   ],
   imports: [
     BrowserModule,
@@ -42,14 +44,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    BookingPage,
+    //BookingPage,
+    TgDashboardPage,
     ContactPage,
     HomePage,
     LoginPage,
     ProfilePage,
     SearchResultsPage,
     TabsPage,
-    TourDetailsPage
+    TourDetailsPage 
   ],
   providers: [
     StatusBar,
